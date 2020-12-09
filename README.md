@@ -20,7 +20,7 @@
 
 ### Overview
 
-O contéudo compilado do site segue o modelo de configuração do [Github Pages](https://docs.github.com/pt/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#escolher-uma-fonte-de-publica%C3%A7%C3%A3o) e se encontrada no diretório `./docs` localizado na raíz do projeto.
+O contéudo compilado do site segue o modelo de configuração do [Github Pages](https://docs.github.com/pt/free-pro-team@latest/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#escolher-uma-fonte-de-publica%C3%A7%C3%A3o) e se encontra no diretório `./docs` localizado na raíz do projeto.
 
 ### Tecnologias
 As seguintes tecnologias foram usadas na construção do projeto:
