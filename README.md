@@ -8,7 +8,7 @@
 <p align="center">Este é o repositório da minha página pessoal! :octocat:</p>
 
 <div align="center">
-    ![npm](https://img.shields.io/badge/npm-v6.13.7-9e58f9?style=for-the-badge&logo=npm)
+    <img src="https://img.shields.io/static/v1?label=npm&message=v6.13.7&color=9e58f9&style=for-the-badge&logo=npm"/>
     <space></space>
 </div>
 
@@ -50,9 +50,13 @@ As seguintes tecnologias foram usadas na construção do projeto:
 
 <h2>José Monte</h2>
 <p>Desenvolvido com :heart:</p>
-<div align="center">
-    [![linkedin](https://img.shields.io/badge/jmontejr-9e58f9?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/jmontejr)
+<div>
+    <a href="https://www.linkedin.com/in/jmontejr">
+        <img src="https://img.shields.io/static/v1?label=linkedin&message=jmontejr&color=9e58f9&style=for-the-badge&logo=linkedin"/>
+    </a>
     <space></space>
-    [![codepen](https://img.shields.io/badge/jmontejr-9e58f9?style=for-the-badge&logo=codepen)](https://codepen.io/jmontejr)
-    <space></space>
+    <a href="https://codepen.io/jmontejr">
+        <img src="https://img.shields.io/static/v1?label=codepen&message=jmontejr&color=9e58f9&style=for-the-badge&logo=codepen"/>
+    </a>
 </div>
+
