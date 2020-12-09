@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__nav {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        li {
+            list-style: none;
+            margin: 10px;
+            cursor: pointer;
+
+            a {
+                color: $colorLilas;
+                font-size: 1.1rem;
+                padding: 10px;
+                text: {
+                    decoration: none;
+                    transform: uppercase;
+                }
+                transition: all 0.3s ease;
+
+                &:hover {
+                    color: $colorLilas;
+                }
+
+                img {
+                    width: 40px;
+                    filter: invert(1);
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}

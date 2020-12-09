@@ -1,0 +1,16 @@
+<footer class="footer">
+
+</footer>
+
+<script defer>
+    (function(document) {
+        'use strict';
+
+        const time = new Date().getTime();
+        const script = document.createElement('script');
+        script.type = 'module';
+        script.src = `assets/js/index.min.js?version=${time}`;
+        document.body.appendChild(script);
+        
+    })(document);
+</script>

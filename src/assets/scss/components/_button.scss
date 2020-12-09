@@ -1,0 +1,43 @@
+.btn {
+    &__primary {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $colorLilas;
+        padding: 1rem;
+        font-size: 1rem;
+        color: $colorLilas;
+        outline: 0;
+        text: {
+            transform: uppercase;
+            decoration: none;
+        }
+        transition: all 0.3s linear;
+
+        &:hover {
+            color: $colorLight;
+            background: $colorLilas;
+        }
+    }
+
+    &__social {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+        color: $colorLight;
+
+        &__img {
+            filter: invert(1);
+            max-width: 100%;
+            border-radius: 50%;
+            transition: all 0.2s linear;
+        }
+
+        &:hover .btn__social__img {
+            transform: translateY(-10px);
+        }
+    }
+}

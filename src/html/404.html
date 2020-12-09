@@ -1,0 +1,34 @@
+@@include("./layout/head.html")
+<body>
+    @@include("./layout/header.html")
+    
+    <main>
+        <section class="hero container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero__text">
+                        <h2 class="hero__text__heading hero__text__heading--404">
+                            Desculpe!<br>Não foi possível localizar<br>a página solicitada :/<br>
+                            <span class="hero__text__span hero__text__span--404">404</span>
+                        </h2>
+                    </div>
+                    <div class="hero__buttons">
+                        <a href="/" class="btn__primary" rel="noreferrer">Voltar para Home</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero__img">
+                        <picture>
+                            <source media="(max-width:767px)" srcset="assets/images/misc/mountain_mobile.webp">
+                                <source media="(min-width:768px)" srcset="assets/images/misc/mountain.webp">
+                                <img src="assets/images/misc/mountain.png" alt="Mountain">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    @@include("./layout/footer.html")
+</body>
+</html>

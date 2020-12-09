@@ -1,0 +1,23 @@
+.header {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+
+    &__brand {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-decoration: none;
+
+        img {
+            width: 100px;
+        }
+
+        h1 {
+            font-size: 0;
+            color: transparent;
+            visibility: hidden;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+@@include("./layout/head.html")
+<body>
+    @@include("./layout/header.html")
+    
+    <main>
+        <section class="hero container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="hero__text">
+                        <h2 class="hero__text__heading">
+                            Oi! eu sou o<br>
+                            <span class="hero__text__span">JOSÉ MONTE</span>
+                        </h2>
+                        <p class="hero__text__paragraph">Desenvolvedor Web</p>
+                    </div>
+                    <div class="hero__buttons">
+                        <a href="https://github.com/jmontejr" target="_blank" class="btn__social">
+                            <img src="assets/images/icons/github.svg" class="btn__social__img" title="Github" alt="Github logo">
+                        </a>
+                        <a href="https://www.linkedin.com/in/jmontejr/" target="_blank" class="btn__social">
+                            <img src="assets/images/icons/linkedin.svg" class="btn__social__img" title="LinkedIn" alt="LinkedIn logo">
+                        </a>
+                        <a href="https://codepen.io/jmontejr/" target="_blank" class="btn__social">
+                            <img src="assets/images/icons/codepen.svg" class="btn__social__img" title="Codepen" alt="Codepen logo">
+                        </a>
+                        <a href="#" class="btn__primary" rel="noreferrer">Download CV</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero__img">
+                        <picture>
+                            <source media="(max-width:767px)" srcset="assets/images/misc/coding1_mobile.webp">
+                            <source media="(min-width:768px)" srcset="assets/images/misc/coding1.webp">
+                            <img src="assets/images/misc/coding1.png" alt="Desenvolvedor programando">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    @@include("./layout/footer.html")
+</body>
+</html>

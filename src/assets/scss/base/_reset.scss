@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  background: {
+    image: linear-gradient(to right top, $colorGreyThree, lighten($colorGreyThree, 10%));
+    repeat: no-repeat;
+    position: 75% top;
+    size: cover;
+  }
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+
+  @media only screen and (min-width: 1024px) {
+    background: {
+      image: linear-gradient(to right top, $colorGreyThree, lighten($colorGreyThree, 10%));
+      image: url('../images/misc/bg.webp'), 
+        linear-gradient(to right top, $colorGreyThree, lighten($colorGreyThree, 10%));
+      position: right;
+    }
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
