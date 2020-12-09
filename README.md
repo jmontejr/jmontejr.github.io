@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="src/assets/images/misc/logo.png" height="80" width="130" alt="Unform" />
+  <img src="src/assets/images/misc/logo.png" height="80" width="130" alt="José Monte" />
 </p>
 
 <h1 align="center">José Monte</h1>
