@@ -6,7 +6,8 @@
         border: 2px solid $colorLilas;
         padding: 1rem;
         font-size: 1rem;
-        color: $colorLilas;
+        color: $colorLight;
+        background: $colorLilas;
         outline: 0;
         text: {
             transform: uppercase;
@@ -14,9 +15,14 @@
         }
         transition: all 0.3s linear;
 
-        &:hover {
-            color: $colorLight;
-            background: $colorLilas;
+        @media only screen and (min-width: 768px) {
+            color: $colorLilas;
+            background: transparent;
+
+            &:hover {
+                color: $colorLight;
+                background: $colorLilas;
+            }
         }
     }
 
